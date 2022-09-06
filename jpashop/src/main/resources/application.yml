@@ -13,6 +13,10 @@ spring:
 #        show_sql: ture
         format_sql: ture
 
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+
 logging:
   level:
     org.hibernate.SQL: debug
